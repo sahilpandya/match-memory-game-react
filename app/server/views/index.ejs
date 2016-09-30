@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Match Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charSet="UTF-8"/>
+
+    <link rel="stylesheet" href="<%= styleSrc %>" type="text/css" media="screen" charset="utf-8">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,300,400,700,900,300italic,400italic,700italic,900italic' type='text/css' media='all'/>
+  </head>
+  <body class="offcanvas-close fixed_top">
+    <div id="root"><%- html %></div>
+    <script type="text/javascript" charset="utf-8">
+      window.__REDUX_STATE__ = '<%= reduxState %>';
+    </script>
+
+    <% scriptSrcs.forEach(function(src){ %>
+      <script src="<%= src %>"></script>
+    <% }) %>
+  </body>
+</html>

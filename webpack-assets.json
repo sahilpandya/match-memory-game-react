@@ -1,0 +1,9 @@
+{
+  "javascript": {
+    "app": "http://localhost:3001/static/app.js",
+    "dev": "http://localhost:3001/static/dev.js",
+    "vendor": "http://localhost:3001/static/vendor.js"
+  },
+  "styles": {},
+  "assets": {}
+}
